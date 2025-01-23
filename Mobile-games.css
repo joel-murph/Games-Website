@@ -1,0 +1,25 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+.full-content {
+  background-image: url(games-Website-resources/spiderman\ 2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.txt{
+    font-size: larger;
+    color: black;
+    font-weight: 500;
+}
+
+.txt:hover{
+    color: red; 
+}
+.crd-hover:hover{
+    scale:.9;
+    transition-duration: .3s;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,25 @@
+.full-content {
+  background-image: url(games-Website-resources/spiderman\ 2.jpeg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+.navbar-img{
+  height: 50px;
+  width: 90px;
+}
+
+.navbar-bg {
+  background-color: rgb(217, 111, 106);
+}
+.font-size {
+  font-size: large;
+  font-weight: 500;
+}
+.nav:hover {
+  scale: 1.1;
+}
+p {
+  color: white;
+}
