@@ -24,3 +24,12 @@ img {
     cursor: pointer;
     
 }
+
+@media screen and (max-width: 425px) {
+  .full-content {
+    background-image: url(games-Website-resources/batman-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}

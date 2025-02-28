@@ -8,18 +8,26 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.txt{
-    font-size: larger;
-    color: black;
-    font-weight: 500;
+.txt {
+  font-size: larger;
+  color: black;
+  font-weight: 500;
 }
 
-.txt:hover{
-    color: red; 
+.txt:hover {
+  color: red;
 }
-.crd-hover:hover{
-    scale:.9;
-    transition-duration: .3s;
-    cursor: pointer;
-    
+.crd-hover:hover {
+  scale: 0.9;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .full-content {
+    background-image: url(games-Website-resources/ark-mobile-wallpe.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
 }
